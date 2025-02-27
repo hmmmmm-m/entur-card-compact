@@ -40,7 +40,7 @@ export const cardStyle = css`
     color: var(--primary-text-color);
     font-weight: 300;
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
     height: 3rem;
     justify-content: center;
   }
@@ -53,7 +53,7 @@ export const cardStyle = css`
   }
 
   .entur-route__lines {
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
 
   .entur-line__icon {
@@ -86,7 +86,7 @@ export const cardStyle = css`
     font-weight: 400;
     max-width: 50%;
     overflow: hidden;
-    height: 2rem;
+    height: 2.5rem;
     justify-content: center;
   }
 

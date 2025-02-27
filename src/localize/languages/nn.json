@@ -8,13 +8,13 @@
     "arrives": "Kjem om",
     "arrived": "Gjekk for",
     "departs": "Avgang om",
-    "departing": "Avgang nå",
+    "departing": "nå",
     "delayed": "Forseinka",
     "and": "og",
-    "minute": "minutt",
-    "minutes": "minutter",
-    "hour": "time",
-    "hours": "timer"
+    "minute": "m",
+    "minutes": "m",
+    "hour": "t",
+    "hours": "t"
   },
   "editor": {
     "name": "Namn",

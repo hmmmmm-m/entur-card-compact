@@ -1,8 +1,8 @@
 {
   "common": {
     "version": "Versjon",
-    "invalid_configuration": "Ugyldig oppsett",
-    "show_warning": "Vis advarsel",
+    "invalid_configuration": "feil",
+    "show_warning": "adv.",
     "at": "kl",
     "to": "Til",
     "arrives": "om",

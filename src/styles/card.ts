@@ -40,8 +40,8 @@ export const cardStyle = css`
     color: var(--primary-text-color);
     font-weight: 300;
     margin: 0;
-    font-size: 2rem;
-    height: 3rem;
+    font-size: 1.8rem;
+    height: 3.2rem;
     justify-content: center;
   }
 
@@ -53,7 +53,7 @@ export const cardStyle = css`
   }
 
   .entur-route__lines {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
   }
 
   .entur-line__icon {
@@ -98,7 +98,7 @@ export const cardStyle = css`
 
   .entur-line__delay {
     --mdc-icon-size: 19px;
-    font-size: 0.9rem;
+    font-size: 2rem;
     color: var(--error-color);
   }
 

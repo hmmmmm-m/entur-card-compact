@@ -18,7 +18,7 @@ import { cardStyle } from "./styles/card";
 (window as any).customCards = (window as any).customCards || [];
 (window as any).customCards.push({
   type: "entur-card",
-  name: "Entur Card",
+  name: "Entur Card Compact",
   description:
     "This card is made to work with the Entur public transport component.",
 });

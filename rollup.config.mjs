@@ -38,7 +38,7 @@ export default [
   {
     input: "src/entur-card.ts",
     output: {
-      file: "dist/entur-card.js",
+      file: "dist/entur-card-compact.js",
       format: "es",
       inlineDynamicImports: true,
     },

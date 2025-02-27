@@ -1,5 +1,5 @@
 {
-  "name": "entur-card",
+  "name": "entur-card-compact",
   "version": "2.0.1",
   "description": "This card is made to work with the Entur public transport component.",
   "keywords": [
@@ -11,6 +11,7 @@
     "custom-cards",
     "entur",
     "entur-card",
+    "entur-card-compact",
     "transportation"
   ],
   "repository": "git@github.com:jonkristian/entur-card.git",

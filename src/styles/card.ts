@@ -22,12 +22,6 @@ export const cardStyle = css`
   }
 
   .entur-route {
-    padding: 1rem;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 24px 1fr;
-    align-items: flex-start;
-    margin-block: 1rem;
   }
 
   .entur-route.divided {
@@ -53,10 +47,11 @@ export const cardStyle = css`
     align-self: center;
     width: 100%;
     height: auto;
+    display: none;
   }
 
   .entur-route__lines {
-    grid-column: 2/2;
+    font-size: 2rem;
   }
 
   .entur-line__icon {
@@ -75,6 +70,8 @@ export const cardStyle = css`
     column-gap: 0.5rem;
     margin-block: 0.25rem;
     padding-block: 0.25rem;
+    white-space: nowrap;
+    justify-content: space-between;
   }
 
   .entur-line__header {
@@ -84,8 +81,11 @@ export const cardStyle = css`
     row-gap: 0.15rem;
     margin-top: 0.3rem;
     color: var(--primary-text-color);
-    font-size: 14px;
     font-weight: 400;
+    max-width: 50%;
+    overflow: hidden;
+    height: 2rem;
+    justify-content: center;
   }
 
   .entur-line__hr {
@@ -101,7 +101,7 @@ export const cardStyle = css`
   }
 
   .entur-line__due {
-    color: var(--dark-primary-color);
+    color: "#ffffff";
   }
 
   .entur-line__due.icon-right {
